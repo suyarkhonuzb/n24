@@ -14,17 +14,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
 <body>
+
     <!-- SITE-HEADER -->
     <header class="site-header">
         <!-- SITENAV-HEADER-TOP -->
         <!-- LOGO-LINK-IMAGE -->
         <div class="header-top">
             <div class="header-top-container container">
-                <a href="index.html">
+                <a class="logo" href="index.html">
                     <img src="Images/logo.jpg" class="logo-img" alt="logo-img" srcset="Images/logo.jpg 1x, Images/logo.jpg@2x 2x" >
                 </a>                
 
-         <!-- CURRENT-RATES -->
+         <!-- CURRENCY-RATES -->
                 <ul class="currency-rates">
                     <li class="currency-rates-item">
                         <b class="currency-rates-type">$</b>
@@ -35,8 +36,47 @@
                         <span class="currency-rates-value">130,01</span>
                     </li>
                 </ul>
+
+                <!-- GLOBAL SEARCH -->
+                <form action="https://echo.htmlacamedy.ru" target="_blank" method="get" class="header-form">
+                    <input type="search" class="header-input" name="text" aria-label="Поиск" placeholder="Поиск" required>
+                </form>
+
+                <!-- LANG-TOGGLE -->
+                <div class="lang-toggle">
+                    <a class="lang-toggle-link lang-toggle-link-active" href="#" >УЗ</a>
+                    <a class="lang-toggle-link" href="#" >РУ</a>
+                </div>
+
+                <!-- HEADER-AUTH -->
+                <a class="button button-primary" href="#">Войти</a>
             </div>
+
+        </div> 
+
+        <!--SITENAV  -->
+        <div class="container">
+            <ul class="sitenav-list">
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Главное</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Интересное</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Экономика</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Политика</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Общество</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Технологии</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Спорт</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Культура</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Происшествия</a></li>
+                <li class="sitenav-item"><a class="sitenav-link" href="#" >Наука</a></li>
+            </ul>
+
+            <!-- HEADER-SITE-BANNER -->
+            <aside>
+                <a class="site-header-banner-link" href="https://olcha.uz" target="_blank">
+                    <img src="Images/optimize 1.jpg" class="site-header-banner-img" width="1200" height="128" alt="Shopme banner" srcset="Images/optimize 1 1x, Images/optimize 1@2x 2x" >
+                </a>
+            </aside>
         </div>
     </header>
 </body>
 </html>
+
