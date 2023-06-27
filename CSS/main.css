@@ -75,12 +75,12 @@ body{
 .currency-rates-type{
     color: #2959ce;
     font-weight: 700;
-    margin-right: 1px;
+    margin-right: 3px;
 }
 
 .currency-rates-value{
     color: #555;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* HEADER-FORM */
@@ -191,4 +191,81 @@ body{
 /* SITE-HEADER-BANNER */
 .site-header-banner-link{
     display: flex;
+}
+
+
+/* NEWS-GRID */
+.main-content{
+    padding-top: 50px;
+}
+
+.news-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-article-item{
+    width: 392px;
+    height: 382px;
+    border-radius: 15px;
+    margin-left: -10px;
+}
+
+.article-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 17px 15px 17px;
+    margin-top: 0;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    background-color:#f6f6f6;
+}
+
+.article-card-title{
+    margin: 0;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+
+.article-card-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.article-card-link:hover{
+    color: #7269ee;
+}
+
+.article-card-link:active{
+    opacity: 0.6;
+}
+
+.article-card-text{
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+}
+
+.article-card-img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.article-card-footer{
+    display: flex;
+    align-items: center;
+}
+
+.article-card-source-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.article-card-source-time{
+    font-size: 12px;
+    line-height: normal;
 }
