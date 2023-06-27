@@ -151,6 +151,11 @@ body{
     background-color: #7296ec;
 }
 
+.button-orange{
+   background-color:#f78b3b;
+   border: 0;
+}
+
 /* SITENAV */
 .sitenav-list{
     display: flex;
@@ -202,6 +207,7 @@ body{
 .news-grid{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .news-article-item{
@@ -268,4 +274,26 @@ body{
 .article-card-source-time{
     font-size: 12px;
     line-height: normal;
+}
+
+
+/* NOTIFICATION CTA */
+.notification-cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px 70px 25px 30px;
+    width: 1050px;
+    height: 100px;
+    border-radius: 10px;
+    background-color:#f5ac5985;
+}
+
+.notification-text{
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
 }
