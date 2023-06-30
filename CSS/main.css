@@ -446,6 +446,14 @@ body{
     color: #000;
 }
 
+.sidebar-news-item-link:hover{
+    color: #7269ee;
+}
+
+.sidebar-news-item-link:active{
+    opacity: 0.6;
+}
+
 /* SIDEBAR-NEWS-BANNER */
 .sidebar-news-item-img-wrapped{
     display: flex;
