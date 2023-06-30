@@ -317,6 +317,7 @@ body{
 .layout-2-1{
     display: flex;
     flex-direction: row;
+    padding-bottom: 100px;
 }
 
 
