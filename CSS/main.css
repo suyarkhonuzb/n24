@@ -490,6 +490,14 @@ body{
     text-decoration: none;
 }
 
+.logo-text:hover{
+    opacity: 0.8;
+}
+
+.logo-text:active{
+    opacity: 0.6;
+}
+
 .footer-top-text{
     width: 229px;
     display: flex;
@@ -537,6 +545,13 @@ body{
     font-style: normal;
 }
 
+.footer-top-link:hover{
+    opacity: 0.8;
+}
+
+.footer-top-link:active{
+    opacity: 0.6;
+}
 /* FOOTER-BOTTOM */
 .footer-bottom{
     margin: 0;
@@ -564,10 +579,15 @@ body{
     list-style: none;
 }
 
+.footer-social-networks-item:hover{
+    opacity: 0.8;
+}
+
+.footer-social-networks-item:active{
+    opacity: 0.6;
+}
+
 .footer-social-networks-item:not(:last-child){
     margin-right: 25px;
 }
 
-.footer-social-icon{
-    object-fit: cover;
-}
