@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 22px;
     color: #4a4b4c;
     background-color: #fff;
@@ -607,6 +607,9 @@ body{
 }
 
 /* CONTACT-PAGE */
+.contact-page-content{
+    display: flex;
+}
 
 .contact-page-heading {
     margin-top: 0;
@@ -661,4 +664,50 @@ body{
     align-self: flex-end;
     margin-top: 20px;
     margin-bottom: 100px;
+}
+
+/* CONTACT-PAGE-INFO */
+.contact-page-info {
+    width: 50%;
+}
+.definitions-card {
+    margin-left: 10px;
+    border:0;
+    background-color: #f6f6f6;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.definitions-card-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.definitions-card-item > * {
+    margin: 0;
+}
+
+.definitions-card-item:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-item-heading {
+    font-size: 20px;
+    display: flex;
+    line-height: normal;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+}
+ 
+.definitions-card-item-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    margin-top: 7px;
+}
+
+.definitions-card-item-text :not(:last-child){
+    padding-bottom: 20px;
 }
